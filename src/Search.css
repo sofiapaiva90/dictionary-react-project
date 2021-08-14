@@ -1,0 +1,17 @@
+.Search form {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.Search .form-control {
+  display: inline;
+  width: 50%;
+}
+
+.Search form i {
+  padding-left: 20px;
+  vertical-align: middle;
+}
