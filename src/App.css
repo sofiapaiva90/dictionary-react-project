@@ -1,18 +1,38 @@
 .App {
   font-family: "Caveat", cursive;
+  background-color: #fcfefe;
 }
 
 .App header {
-  margin-top: 30px;
   text-align: center;
   font-size: 40px;
 }
 
+.App .container {
+  padding-top: 30px;
+}
+
 .App header h1 {
-  display: inline;
-  padding-left: 20px;
+  text-shadow: 3px 6px 7px rgba(247, 107, 138, 0.5);
+  color: #f76b8a;
+  font-weight: bold;
+}
+
+.App header i {
+  color: black;
+  text-shadow: none;
+  padding-right: 20px;
 }
 
 .App footer {
   font-size: 24px;
+}
+
+.App footer i {
+  padding-right: 10px;
+  color: #f76b8a;
+}
+
+.App footer i:hover {
+  color: black;
 }

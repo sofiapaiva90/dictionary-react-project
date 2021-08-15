@@ -25,11 +25,15 @@ function handleWordChange(event) {
 }
 
     return (
+        
         <div className="Search">
+            <section>
             <form onSubmit={search}>
-                <input type="search" onChange={handleWordChange} placeholder="Type a word..." className="form-control"/>
+                <input type="search" onChange={handleWordChange} placeholder="Enter the word to search for..." className="form-control"/>
                 <i className="fas fa-search"></i> 
             </form>
+            <p><strong>Example:</strong> sunset, sunrise, ocean, sun...</p>
+            </section>
             <Results results={results}/>
         </div>
     )

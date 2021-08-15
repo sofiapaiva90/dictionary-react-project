@@ -1,0 +1,20 @@
+.Meaning section {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.Meaning h4 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f76b8a;
+  text-shadow: 3px 6px 7px rgba(247, 107, 138, 0.5);
+}
+
+.Meaning section strong {
+  font-size: 24px;
+}
+
+.Meaning hr {
+  padding: 0px;
+}

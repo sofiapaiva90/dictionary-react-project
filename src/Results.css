@@ -1,0 +1,8 @@
+.Results h2 {
+  padding-left: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #f76b8a;
+  text-shadow: 3px 6px 7px rgba(247, 107, 138, 0.5);
+  display: inline;
+}

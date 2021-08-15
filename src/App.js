@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <div className="container">
 <header>
-<i className="fas fa-book-open"></i><h1>DICTIONARY</h1>
+<h1><i className="fas fa-book-open"></i>DICTIONARY</h1>
 </header>
 <Search />
    <footer>
